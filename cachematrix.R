@@ -1,7 +1,7 @@
 ## Put comments here that give an overall description of what your
 ## functions do
 
-## Write a short comment describing this function
+## A function that returns a list of 4 functions - set and get an internal matrix as well as its inverse
 
 makeCacheMatrix <- function(x = matrix()) {
   i <- NULL
@@ -31,7 +31,7 @@ makeCacheMatrix <- function(x = matrix()) {
 }
 
 
-## Write a short comment describing this function
+## A function that takes above structure and compute its inverse as well as display the inverse
 
 cacheSolve <- function(x, ...) {
   i <- x$getInverse()
